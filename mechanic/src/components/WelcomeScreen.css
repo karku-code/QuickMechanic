@@ -1,0 +1,25 @@
+.welcome-screen {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+.welcome-screen {
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+@keyframes slideInRightFast {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bike-slide-in {
+  animation: slideInRightFast 0.6s ease-out forwards;
+}

@@ -1,0 +1,28 @@
+.mechanic-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  background: #fdfdfd;
+  border-radius: 20px;
+ 
+}
+
+.mechanic-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain; /* ensures big space in the center */
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.mechanic-quote {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #444;
+}
